@@ -1,0 +1,9 @@
+server:
+  port: 8086
+
+spring:
+  cache:
+    type: redis
+    redis:
+      use-key-prefix: true
+      cache-null-values: false
